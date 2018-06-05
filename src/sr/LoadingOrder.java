@@ -35,7 +35,6 @@ class Child extends LoadingOrder {
 		b = "子类普通块";
 		System.out.println(a);
 	}
-
 	public Child() {
 		System.out.println("子类构造方法a：" + a);
 		System.out.println("子类构造方法b：" + b);
